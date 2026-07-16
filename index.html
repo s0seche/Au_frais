@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Au Frais ! — Trouve du frais près de chez toi</title>
+  <meta name="description" content="Trouve les lieux climatisés et points de fraîcheur près de chez toi, et apprends à utiliser la clim de façon responsable.">
+
+  <!-- Police légère via Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Barre de navigation commune ===== -->
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="index.html"><span class="brand-emoji">🌿</span> Au Frais&nbsp;!</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="carte.html">Carte à clim</a></li>
+        <li><a href="terrasses.html">Une mousse au frais</a></li>
+        <li><a href="ecologie.html">Écologie</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Héros ===== -->
+    <section class="hero">
+      <span class="hero-emoji">☀️🧊</span>
+      <h1>Il fait chaud&nbsp;? On te trouve <span class="souligne">du frais</span>.</h1>
+      <p class="baseline">
+        Au Frais&nbsp;! a une double mission&nbsp;: t'aider à dénicher les lieux climatisés
+        et les points de fraîcheur autour de toi, <strong>et</strong> t'aider à consommer
+        la clim de façon responsable. Parce qu'on peut se rafraîchir sans réchauffer la planète.
+      </p>
+      <a class="cta" href="carte.html">🗺️ Trouver du frais autour de moi</a>
+    </section>
+
+    <!-- ===== Cartes cliquables vers les pages ===== -->
+    <section class="page">
+      <div class="card-grid">
+        <a class="card-link" href="carte.html">
+          <span class="card-emoji">🗺️</span>
+          <h3>La carte à clim</h3>
+          <p>Cinémas, bibliothèques, musées, centres commerciaux… et les magasins
+            &amp; installateurs de clim. Géolocalise-toi et filtre ce qui t'intéresse.</p>
+        </a>
+        <a class="card-link" href="ecologie.html">
+          <span class="card-emoji">🌍</span>
+          <h3>La clim, sans excès</h3>
+          <p>Des chiffres vérifiés et sourcés (ADEME, RTE, AIE) sur l'impact de la
+            climatisation, et des conseils concrets pour te rafraîchir malin.</p>
+        </a>
+        <a class="card-link" href="terrasses.html">
+          <span class="card-emoji">🍺</span>
+          <h3>Une mousse au frais</h3>
+          <p>Bars, cafés et pubs autour de toi — de préférence avec une belle
+            terrasse à l'ombre. L'apéro aussi peut être un point de fraîcheur.</p>
+        </a>
+      </div>
+
+      <!-- Clin d'œil convivial vers la page Terrasses -->
+      <div class="clin-doeil">
+        <span class="biere">🍻</span>
+        <p>Et si jamais tu veux juste te rafraîchir avec les copains, va boire
+          <strong>une mousse au frais</strong>&nbsp;— on t'a préparé la carte des
+          terrasses et des bistrots sympas.</p>
+        <a href="terrasses.html">C'est par ici&nbsp;→</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Pied de page commun ===== -->
+  <footer class="footer">
+    <p>🌿 Au Frais&nbsp;! — fait avec amour (et un ventilateur) pendant l'été.</p>
+    <p class="footer-liens">
+      Données cartographiques © contributeurs <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>
+      · Chiffres écologiques sourcés sur la <a href="ecologie.html">page Écologie</a>
+    </p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>
